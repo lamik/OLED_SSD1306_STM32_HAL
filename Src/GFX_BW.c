@@ -38,6 +38,21 @@ void GFX_SetFontSize(uint8_t size_t)
 		size = size_t;
 }
 
+uint8_t GFX_GetFontHeight(void)
+{
+	return font[0];
+}
+
+uint8_t GFX_GetFontWidth(void)
+{
+	return font[1];
+}
+
+uint8_t GFX_GetFontSize(void)
+{
+	return size;
+}
+
 void GFX_DrawChar(int x, int y, char chr, uint8_t color, uint8_t background)
 {
 	if(chr > 0x7E) return; // chr > '~'

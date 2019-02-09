@@ -75,6 +75,9 @@
  */
 void GFX_SetFont(const uint8_t* font_t);
 void GFX_SetFontSize(uint8_t size_t);
+uint8_t GFX_GetFontHeight(void);
+uint8_t GFX_GetFontWidth(void);
+uint8_t  GFX_GetFontSize(void);
 void GFX_DrawChar(int x, int y, char chr, uint8_t color, uint8_t background);
 void GFX_DrawString(int x, int y, char* str, uint8_t color, uint8_t background);
 #endif
