@@ -79,7 +79,7 @@ void GFX_DrawString(int x, int y, char* str, uint8_t color, uint8_t background)
 		{
 			for(uint8_t i=0; i<(font[0]*size); i++)
 			{
-				GFX_DrawPixel(x_tmp-1, y+i, BLACK);
+				GFX_DrawPixel(x_tmp-1, y+i, PIXEL_BLACK);
 			}
 		}
 		znak = *str;
