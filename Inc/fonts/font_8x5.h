@@ -1,5 +1,5 @@
 /*
- * font_7x5.h
+ * font_8x5.h
  *
  *  The MIT License.
  *  Created on: 25.05.2017
@@ -8,11 +8,11 @@
  *      mateusz@msalamon.pl
  */
 
-#ifndef FONT_7X5_H_
-#define FONT_7X5_H_
+#ifndef FONT_8X5_H_
+#define FONT_8X5_H_
 
 // Font definition
-const uint8_t font_7x5[] =
+const uint8_t font_8x5[] =
 {
 			8, 5, //height, width
 			0x00, 0x00, 0x00, 0x00, 0x00,
@@ -112,4 +112,4 @@ const uint8_t font_7x5[] =
 			0x02, 0x01, 0x02, 0x04, 0x02,
 };
 
-#endif /* FONT_7X5_H_ */
+#endif /* FONT_8X5_H_ */

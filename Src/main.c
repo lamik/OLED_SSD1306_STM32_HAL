@@ -134,7 +134,7 @@ int main(void)
 #endif
   SSD1306_Bitmap((uint8_t*)picture);
   HAL_Delay(5000);
-  GFX_SetFont(font_7x5);
+  GFX_SetFont(font_8x5);
   GFX_SetFontSize(1);
 
 //  SSD1306_StartScrollLeftUp(0,7,SCROLL_EVERY_4_FRAMES, 1);
